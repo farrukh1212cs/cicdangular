@@ -59,4 +59,4 @@ jobs:
           app-name: 'Deltalpg'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F33DAEABA03641C9A6B2B6803165C264 }}
-          package: .
+          package: ./dist/Deltalpg
